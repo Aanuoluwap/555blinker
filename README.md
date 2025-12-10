@@ -6,6 +6,8 @@ This repository contains electronics design projects created using KiCad.
 
 ### 1. 555 Blinker (Root)
 
+![555 Blinker 3D View](images/555_blinker_3d_view.png)
+
 A classic Astable Multivibrator circuit using the NE555 timer IC.
 
 **Components:**
