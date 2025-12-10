@@ -1,0 +1,78 @@
+** Drc report for Priject_2__ESP32_build.kicad_pcb **
+** Created on 2025-12-07T01:38:21+0100 **
+
+** Found 11 DRC violations **
+[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): PCB
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(155.2950 mm, 103.0000 mm): Pad 2 [GND] of C2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(134.7300 mm, 137.3050 mm): Pad 1 [GND] of SW1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(192.7500 mm, 122.3650 mm): Pad 38 [GND] of U2 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(163.1790 mm, 140.0210 mm): Track [+3.3V] on F.Cu, length 13.3262 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(151.9600 mm, 108.0400 mm): Track [Net-(J1-Pin_1)] on F.Cu, length 0.4101 mm
+[lib_footprint_mismatch]: Footprint 'ESP32-WROOM-32' does not match copy in library 'RF_Module'.
+    Local override; warning
+    @(184.5000 mm, 113.6150 mm): Footprint U2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(144.5000 mm, 104.9800 mm): Reference field of R3
+    @(143.7729 mm, 104.4100 mm): Segment of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(158.9675 mm, 105.1950 mm): Segment of C1 on F.Silkscreen
+    @(156.6475 mm, 104.7500 mm): Reference field of C2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(144.5000 mm, 101.6700 mm): Reference field of R2
+    @(143.7729 mm, 101.1000 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(156.6475 mm, 101.6000 mm): Reference field of C3
+    @(158.9675 mm, 102.0450 mm): Segment of C2 on F.Silkscreen
+
+** Found 7 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(152.2700 mm, 117.5000 mm): PTH pad 3 [GND] of U3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.2700 mm, 117.5000 mm): PTH pad 3 [GND] of U3
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(155.2950 mm, 103.0000 mm): Pad 2 [GND] of C2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.8100 mm, 117.5000 mm): PTH pad 4 [GND] of U3
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(194.3000 mm, 89.6150 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(155.2950 mm, 103.0000 mm): Pad 2 [GND] of C2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

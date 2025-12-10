@@ -1,0 +1,13 @@
+# KiCad ignores
+*.bak
+*.lck
+*.kicad_prl
+*.kicad_pcb-bak
+fp-info-cache
+# Auto-generated backups
+_autosave-*
+*.tmp
+# Manufacturing files (We handle these differently, see Phase 4)
+*-gerbers/
+*.gbr
+*.drl
