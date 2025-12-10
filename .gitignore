@@ -11,3 +11,8 @@ _autosave-*
 *-gerbers/
 *.gbr
 *.drl
+# More KiCad generated files
+*-backups/
+*.rpt
+*-job.gbrjob
+*.gbrjob
