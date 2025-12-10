@@ -43,4 +43,4 @@ This project involves an ESP32 microcontroller.
 
 ## License
 
-[Add License Here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
