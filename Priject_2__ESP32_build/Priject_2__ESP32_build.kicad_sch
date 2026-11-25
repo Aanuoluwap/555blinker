@@ -2841,7 +2841,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 83.82 105.41 270)
+		(at 83.82 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3144,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 176.53 74.93 0)
 			(effects
 				(font
@@ -3603,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 120.65 76.2 0)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.2352 88.9 0)
 			(effects
 				(font
